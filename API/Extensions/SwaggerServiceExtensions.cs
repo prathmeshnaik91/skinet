@@ -12,7 +12,6 @@ namespace API.Extensions
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "SkinetAPI", Version = "v1" });
             });
-
             return services;
         }
 
